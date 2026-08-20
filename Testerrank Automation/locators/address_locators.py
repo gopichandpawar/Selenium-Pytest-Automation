@@ -1,0 +1,10 @@
+class AddressLocator:
+    FULL_NAME = "//input[@id='fullName']"
+    MOBILE = "//input[@id='mobile']"
+    ADDRESS = "//textarea[@id='address']"
+    LANDMARK = "//input[@id='landmark']"
+    CITY = "//input[@id='city']"
+    STATE = "//select[@id='state']"
+    PIN_CODE = "//input[@id='pincode']"
+    SAVE_ADDRESS = "(//div[@class='bg-white rounded shadow']//button)[1]"
+    CONTINUE = "//button[@id='continuePaymentBtn']"
