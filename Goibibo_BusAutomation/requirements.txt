@@ -1,0 +1,8 @@
+Technology Stack
+Python
+Selenium WebDriver
+PyTest
+Page Object Model (POM)
+HTML Test Reports
+Git
+GitHub

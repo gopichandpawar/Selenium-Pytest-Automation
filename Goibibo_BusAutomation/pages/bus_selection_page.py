@@ -1,0 +1,14 @@
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from locators.bus_selection_locator import BusSelectLocator
+
+class BusSelectPage:
+    def __init__(self, driver):
+        self.driver = driver
+
+    def Bus_Select(self):
+        bus_select = WebDriverWait(self.driver, 15).until(
+            EC.element_to_be_clickable((By.XPATH,BusSelectLocator.BUS_SELECT))
+        )
+        bus_select.click()
