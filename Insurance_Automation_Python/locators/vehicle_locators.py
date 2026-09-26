@@ -1,0 +1,11 @@
+class VehicleLocators:
+    AUTOMOBILE = "(//div//a[contains(@id,'nav_automobile')])[1]"
+    MAKE = "//select[@id='make']"
+    ENGINEER_PERFORMANCE = "//input[@id='engineperformance']"
+    DATE = "//input[@id='dateofmanufacture']"
+    NUM_OF_SEAT = "//select[@id='numberofseats']"
+    FUEL_TYPE = "//select[@id='fuel']"
+    LIST_PRICE = "//input[@id='listprice']"
+    LICENSE_PLATE_NUMBER = "//input[@id='licenseplatenumber']"
+    ANNUAL_MILEAGE = "//input[@id='annualmileage']"
+    NEXT = "//button[@id='nextenterinsurantdata']"
